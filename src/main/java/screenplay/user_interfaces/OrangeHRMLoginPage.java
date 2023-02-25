@@ -12,5 +12,5 @@ public class OrangeHRMLoginPage {
     public static Target BTN_LOGIN = Target.the("LOGIN - ACCEDER")
             .locatedBy("//button[@type='submit']");
     public static Target DASHBOARD = Target.the("DASHBOARD")
-            .locatedBy("//*[text()='No Employees are on Leave Today']");
+            .locatedBy("//*[text()='Paul Collings']");
 }
