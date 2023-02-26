@@ -11,6 +11,7 @@ public class OrangeHRMLoginPage {
 
     public static Target BTN_LOGIN = Target.the("LOGIN - ACCEDER")
             .locatedBy("//button[@type='submit']");
+    
     public static Target DASHBOARD = Target.the("DASHBOARD")
-            .locatedBy("//*[text()='Paul Collings']");
+            .locatedBy("//img[@src='/web/images/orangehrm-logo.png?1672659722816']");
 }
